@@ -12,3 +12,31 @@ Considering that integer indices are numbers that are coerced to strings, the on
 So, as for now: **ONLY USE ON ES2015 ENVIRONMENT** and **DO NOT USE ON KEYS WITH NUMERICAL REPRESENTATION** !
 
 The same goes to objects with [Symbol] as propoerties, since they do not show on the Objects.keys() returned array. 
+
+
+Usage:
+
+```javascript
+const indexPropInjector = require('index-prop-injector');
+
+const obj1 = {
+  prop1: val1,
+  prop2: val2,
+  prop3: val3,
+  prop4: val4,
+  prop5: val5
+}
+
+const obj2 = indexPropInjector(obj1, "propX", "valueX", 3)
+console.log(obj2);
+
+obj2 = {
+prop1: val1,
+prop2: val2,
+prop3: val3,
+propX:valueX,
+prop4: val4,
+prop5: val5
+};
+ 
+```
