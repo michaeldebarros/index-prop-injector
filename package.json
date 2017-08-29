@@ -1,0 +1,23 @@
+{
+  "name": "index-prop-injector",
+  "version": "1.0.0",
+  "description": "this module lets you add property to javascript objects at an given index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldebarros/index-prop-injector.git"
+  },
+  "keywords": [
+    "javascript",
+    "object"
+  ],
+  "author": "Michael de Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeldebarros/index-prop-injector/issues"
+  },
+  "homepage": "https://github.com/michaeldebarros/index-prop-injector#readme"
+}
