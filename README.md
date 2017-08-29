@@ -19,7 +19,7 @@ The presence of one or more integer indicies **throws an error** .
 
 This module does not apply to objects with [Symbol] as keys, since they do not show on the Objects.keys() returned array.
 
-In summery: ** ONLY USE ON ES2015 ENVIRONMENT** and **DO NOT USE ON OBJECTS [SYMBOL] AS KEYS ** !
+In summery: **ONLY USE ON ES2015 ENVIRONMENT** and **DO NOT USE ON OBJECTS [SYMBOL] AS KEYS** !
 
 
 
