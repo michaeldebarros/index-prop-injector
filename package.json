@@ -4,7 +4,7 @@
   "description": "this module lets you add property to javascript objects at an given index",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/michaeldebarros/index-prop-injector/issues"
   },
-  "homepage": "https://github.com/michaeldebarros/index-prop-injector#readme"
+  "homepage": "https://github.com/michaeldebarros/index-prop-injector#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1"
+  }
 }
